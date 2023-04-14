@@ -25,5 +25,13 @@
 /* active state */
 .hoverMe:hover {
   /* Add your hover state css here. */
-
+transition:0.3s;
+border-color: aquamarine;
+border-width: 5px;
+color: Grey;
+background-color: orange;
 }
+.hoverMe {
+  transition: border-color 0.5s easeout; 
+    }
+
